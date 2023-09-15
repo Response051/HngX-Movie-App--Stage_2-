@@ -1,12 +1,14 @@
 import React from "react";
 import LandindBanner from "./LandingBanner";
 import LandingFooter from "./LandingFooter";
-ImageBitmapRenderingContext;
+import MoviePage from "./MoviePage";
+// ImageBitmapRenderingContext;
 
 function LandindPage() {
   return (
     <div>
       <LandindBanner />
+      <MoviePage />
       <LandingFooter />
     </div>
   );

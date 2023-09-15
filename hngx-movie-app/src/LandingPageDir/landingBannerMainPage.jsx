@@ -20,18 +20,18 @@ function LandingBannerMainPage() {
           <span className="ml-2">80%</span>
         </div>
       </div>
-      <p>
+      <p className="mt-2">
         {" "}
         John wick is on the run after killing a member <br />
         of an international killing guild. A bounty of <br />
         $14million is plaved on his head. <br />
         He is the target of the hit men and women every where.
       </p>
-      <div className="mt-4 py-2 bg-pink-500 pl-20">
+      <div className="mt-4 py-2 bg-pink-500 pl-10 w-1/4">
         <span className="mr-6">
           <FontAwesomeIcon icon={faCirclePlay} />
         </span>
-        <button>Watch Trailer</button>
+        <button className="text-white">Watch Trailer</button>
       </div>
     </div>
   );
