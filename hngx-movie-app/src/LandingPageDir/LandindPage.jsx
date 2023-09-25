@@ -1,14 +1,14 @@
-import React from "react";
-import LandindBanner from "./LandingBanner";
 import LandingFooter from "./LandingFooter";
-import MoviePage from "./MoviePage";
-// ImageBitmapRenderingContext;
+
+import LandingNavBar from "./LandinNavBar";
+
 
 function LandindPage() {
   return (
     <div>
-      <LandindBanner />
-      <MoviePage />
+      <LandingNavBar />
+      
+
       <LandingFooter />
     </div>
   );
