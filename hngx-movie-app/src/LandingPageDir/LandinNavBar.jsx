@@ -63,7 +63,7 @@ function LandingNavBar() {
         </div>
       </section>
       <LandingBannerMainPage movieList={movieList} />
-      <div className="mt-40">
+      <div className="md:mt-40 mt-60">
         <MoviePageLists movieList={movieList} search={search} />
       </div>
     </>
